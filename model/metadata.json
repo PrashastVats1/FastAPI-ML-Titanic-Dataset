@@ -1,0 +1,8 @@
+{
+  "model_name": "Titanic Survival Predictor",
+  "version": "1.0.0",
+  "author": "Prashast Vats",
+  "trained_on": "titanic_cleaned.csv",
+  "created_at": "2025-06-24",
+  "features": ["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked_Q", "Embarked_S"]
+}
