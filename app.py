@@ -8,7 +8,7 @@ from datetime import datetime               # For timestamping results
 import uuid                                 # For generating unique result IDs
 
 # --- Load the saved ML pipeline ---
-pipeline = joblib.load("titanic_pipeline.pkl")  # Load trained pipeline
+pipeline = joblib.load("models/titanic_pipeline.pkl")  # Load trained pipeline
 MODEL_VERSION = "1.0.0"                          # Set a version for the model
 # Define the list of required input columns
 REQUIRED_COLUMNS = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']

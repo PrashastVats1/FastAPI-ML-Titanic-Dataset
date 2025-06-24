@@ -1,8 +1,6 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pkl
-*.csv
 
 # Virtual environments
 .venv/
